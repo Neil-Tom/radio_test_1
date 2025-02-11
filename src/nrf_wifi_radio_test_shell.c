@@ -8,6 +8,8 @@
  * @brief NRF Wi-Fi radio test shell module
  */
 
+ #include <zephyr/usb/usb_device.h>
+#include <zephyr/usb/usbd.h>
 #include <fmac_main.h>
 #include <nrf_wifi_radio_test_shell.h>
 #include <util.h>
